@@ -39,7 +39,7 @@ router.get("/", (req, resp) => resp.json({
 //Passando a rota padrao para a API
 api.use("/", router);
 
-//passando a rota Users para a API
+//Passando a rota Users para a API
 api.use("/users", userRouter);
 
 //API escutando na porta, mostrando no Console
